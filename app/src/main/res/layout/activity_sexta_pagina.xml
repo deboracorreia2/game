@@ -4,9 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/colorAzul"
-    tools:context=".TerceiraPagina">
-
+    tools:context=".SextaPagina"
+    android:background="@color/colorAzul">
 
     <RelativeLayout
         android:id="@+id/rel_anything"
@@ -15,16 +14,36 @@
         android:layout_alignParentStart="true"
         android:layout_alignParentLeft="true"
         android:layout_marginStart="35dp"
-        android:layout_marginTop="53dp"
         android:layout_marginEnd="36dp"
-        android:layout_marginBottom="19dp"
+        android:layout_marginBottom="100dp"
         android:background="@drawable/layout_shadow_white"
-        app:layout_constraintBottom_toTopOf="@+id/botao"
+        app:layout_constraintBottom_toTopOf="@+id/bluetooth_conectar"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView3"
-        app:layout_constraintVertical_bias="1.0" />
+        app:layout_constraintTop_toBottomOf="@+id/imageView3">
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="47dp"
+            android:layout_height="53dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="111dp"
+            android:layout_marginBottom="32dp"
+            app:srcCompat="@drawable/estrela" />
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="159dp"
+            android:layout_marginBottom="43dp"
+            android:text="@string/pontos"
+            android:textSize="24sp" />
+    </RelativeLayout>
 
     <ImageView
         android:id="@+id/imageView3"
@@ -37,57 +56,51 @@
         android:contentDescription="@string/bluetooth"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.05"
-        app:srcCompat="@drawable/bluetooth" />
+        app:layout_constraintVertical_bias="0.049"
+        app:srcCompat="@drawable/sad" />
 
     <TextView
         android:id="@+id/textView9"
-        android:layout_width="225dp"
-        android:layout_height="72dp"
+        android:layout_width="254dp"
+        android:layout_height="132dp"
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
         android:layout_marginEnd="8dp"
         android:layout_marginBottom="8dp"
         android:fontFamily="@font/roboto"
-        android:text="@string/traje"
-        android:textSize="24sp"
+        android:shadowColor="#000000"
+        android:shadowDx="5"
+        android:shadowDy="5"
+        android:shadowRadius="10"
+        android:text="@string/derrota"
+        android:textColor="#D3D3D3"
+        android:textSize="50dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.609"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView3"
-        app:layout_constraintVertical_bias="0.013" />
+        app:layout_constraintVertical_bias="0.075" />
+
 
     <TextView
         android:id="@+id/traje_um"
         android:layout_width="223dp"
-        android:layout_height="wrap_content"
+        android:layout_height="43dp"
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
         android:layout_marginEnd="8dp"
         android:layout_marginBottom="8dp"
-        android:text="@string/bluetooth_traje_um"
-        android:textSize="24sp"
-        app:layout_constraintBottom_toTopOf="@+id/traje_dois"
+        android:text="@string/personagem"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="@+id/rel_anything"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView9"
-        app:layout_constraintVertical_bias="0.471" />
-
-    <TextView
-        android:id="@+id/traje_dois"
-        android:layout_width="221dp"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="8dp"
-        android:layout_marginEnd="8dp"
-        android:layout_marginBottom="192dp"
-        android:text="@string/bluetooth_traje_dois"
-        android:textSize="24sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.488"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintVertical_bias="0.125" />
 
     <ImageButton
         android:id="@+id/botao"
@@ -102,8 +115,8 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/traje_dois"
-        app:layout_constraintVertical_bias="0.73"
+        app:layout_constraintTop_toBottomOf="@+id/rel_anything"
+        app:layout_constraintVertical_bias="0.964"
         app:srcCompat="@drawable/bot1" />
 
     <TextView
@@ -111,17 +124,17 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
-        android:layout_marginTop="8dp"
         android:layout_marginEnd="8dp"
         android:layout_marginBottom="8dp"
         android:fontFamily="@font/lalezar"
-        android:text="@string/conectar"
-        android:textSize="24sp"
+        android:text="@string/ok"
+        android:textColor="#f1f1f1"
+        android:textSize="30sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/traje_dois"
-        app:layout_constraintVertical_bias="0.703" />
+        app:layout_constraintStart_toStartOf="parent" />
+
 
 </android.support.constraint.ConstraintLayout>
+

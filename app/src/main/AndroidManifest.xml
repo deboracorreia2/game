@@ -22,7 +22,10 @@
             android:name="preloaded_fonts"
             android:resource="@array/preloaded_fonts" />
 
-        <activity android:name=".TerceiraPagina"></activity>
+        <activity android:name=".TerceiraPagina" />
+        <activity android:name=".QuartaPagina" />
+        <activity android:name=".QuintaPagina" />
+        <activity android:name=".SextaPagina"></activity>
     </application>
 
 </manifest>

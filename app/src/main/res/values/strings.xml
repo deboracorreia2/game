@@ -14,8 +14,12 @@
     <string name="bluetooth_traje_um">Traje 2DG-59</string>
     <string name="bluetooth_traje_dois">Traje 5DH-60</string>
     <string name="conectar">Conectar.</string>
-
-
+    <string name="pausa">Pausa.</string>
+    <string name="personagem">Personagem.</string>
+    <string name="vida">Vida</string>
+    <string name="derrota">Não foi dessa vez.</string>
+    <string name="ok">Ok</string>
+    <string name="pontos">0</string>
 
 </resources>
 
