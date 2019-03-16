@@ -18,8 +18,18 @@
     <string name="personagem">Personagem.</string>
     <string name="vida">Vida</string>
     <string name="derrota">Não foi dessa vez.</string>
-    <string name="ok">Ok</string>
+    <string name="ok">OK</string>
     <string name="pontos">0</string>
+    <string name="pontos_dois">+100</string>
+    <string name="vitoria">Vencedor</string>
+    <string name="tutorial">Como jogar: </string>
+    <string name="topico_um_tutorial">• Antes de iniciar o jogo, afaste o máximo possível do seu adversário;</string>
+    <string name="topico_dois_tutorial">• Aperte o botão para atirar;</string>
+    <string name="topico_tres_tutorial">• Mire no colete para causar dano;</string>
+    <string name="topico_quatro_tutorial">• Vence quem sobreviver.</string>
+    <string name="pergunta_nome">Qual é o seu nome?</string>
+    <string name="pergunta_nome_dois">Revele sua identidade secreta.</string>
+    <string name="nome">Nome</string>
 
 </resources>
 

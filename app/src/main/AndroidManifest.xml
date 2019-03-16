@@ -25,7 +25,10 @@
         <activity android:name=".TerceiraPagina" />
         <activity android:name=".QuartaPagina" />
         <activity android:name=".QuintaPagina" />
-        <activity android:name=".SextaPagina"></activity>
+        <activity android:name=".SextaPagina" />
+        <activity android:name=".SetimaPagina" />
+        <activity android:name=".OitavaPagina" />
+        <activity android:name=".NonaPagina"></activity>
     </application>
 
 </manifest>
