@@ -2,6 +2,7 @@ package com.example.anaca.game
 
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
+import com.example.anaca.game.R.id.sample_text
 import kotlinx.android.synthetic.main.activity_main_game.*
 
 class MainActivity_game : AppCompatActivity() {
@@ -11,7 +12,7 @@ class MainActivity_game : AppCompatActivity() {
         setContentView(R.layout.activity_main_game)
 
         // Example of a call to a native method
-        sample_text.text = stringFromJNI()
+        //sample_text.text = stringFromJNI()
     }
 
     /**

@@ -51,7 +51,7 @@
         android:layout_marginEnd="8dp"
         android:layout_marginBottom="8dp"
         android:fontFamily="@font/lalezar"
-        android:text="(LOGO)"
+        android:text="@string/logo"
         android:textSize="30sp"
         app:layout_constraintBottom_toTopOf="@+id/progressBar"
         app:layout_constraintEnd_toEndOf="parent"
