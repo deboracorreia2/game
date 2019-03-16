@@ -30,6 +30,8 @@
     <string name="pergunta_nome">Qual é o seu nome?</string>
     <string name="pergunta_nome_dois">Revele sua identidade secreta.</string>
     <string name="nome">Nome</string>
+    <string name="campo_nome">nome</string>
+    <string name="nome_campo">name</string>
 
 </resources>
 
