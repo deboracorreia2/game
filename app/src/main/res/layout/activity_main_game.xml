@@ -15,35 +15,48 @@
         android:layout_height="50dp"
         android:layout_marginStart="8dp"
         android:layout_marginEnd="8dp"
+        android:layout_marginBottom="52dp"
         android:backgroundTint="#f1f1f1"
         android:foregroundTint="#f1f1f1"
         android:max="100"
         android:progress="50"
         android:progressTint="@color/colorRosa"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="421dp" />
+        app:layout_constraintStart_toStartOf="parent" />
 
     <View
         android:id="@+id/view2"
-        android:layout_width="259dp"
-        android:layout_height="106dp"
+        android:layout_width="169dp"
+        android:layout_height="69dp"
         android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
         android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
         android:background="#ffffff"
         android:visibility="visible"
+        app:layout_constraintBottom_toTopOf="@+id/progressBar"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
         app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="55dp" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.206" />
 
     <TextView
         android:id="@+id/textView6"
         android:layout_width="wrap_content"
         android:layout_height="39dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
         android:fontFamily="@font/lalezar"
         android:text="(LOGO)"
         android:textSize="30sp"
-        tools:layout_editor_absoluteX="143dp"
-        tools:layout_editor_absoluteY="85dp" />
+        app:layout_constraintBottom_toTopOf="@+id/progressBar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.242" />
 
 </android.support.constraint.ConstraintLayout>
