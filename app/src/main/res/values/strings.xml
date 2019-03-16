@@ -1,4 +1,21 @@
 <resources>
     <string name="app_name">Game</string>
     <string name="logo">(Logo!)</string>
+    <string name="pronto">Pronto</string>
+    <string name="voltar">Voltar</string>
+    <string name="tempo">30</string>
+    <string name="tempo2">s</string>
+    <string name="topico_um_inicio_jogo">• Afaste-se do seu adversário;</string>
+    <string name="topico_dois_inicio_jogo">• Aperte o botão para atirar;</string>
+    <string name="topico_tres_inicio_jogo">• Mire no colete;</string>
+    <string name="topico_quatro_inicio_jogo">• Vence quem sobreviver.</string>
+    <string name="bluetooth">Simbolo bluetooth.</string>
+    <string name="traje">Selecione o código do seu traje, herói: </string>
+    <string name="bluetooth_traje_um">Traje 2DG-59</string>
+    <string name="bluetooth_traje_dois">Traje 5DH-60</string>
+    <string name="conectar">Conectar.</string>
+
+
+
 </resources>
+
