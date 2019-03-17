@@ -28,7 +28,8 @@
         <activity android:name=".SextaPagina" />
         <activity android:name=".SetimaPagina" />
         <activity android:name=".OitavaPagina" />
-        <activity android:name=".NonaPagina"></activity>
+        <activity android:name=".NonaPagina" />
+        <activity android:name=".DecimaPagina"></activity>
     </application>
 
 </manifest>
