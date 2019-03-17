@@ -18,7 +18,7 @@ class SegundaPagina : AppCompatActivity() {
     }
     fun Click1(view: View) {
 
-        var intent: Intent = Intent(this,MainActivity_game::class.java)
+        var intent: Intent = Intent(this,QuintaPagina::class.java)
         startActivity(intent)
     }
 }

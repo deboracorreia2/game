@@ -33,6 +33,10 @@
     <string name="campo_nome">nome</string>
     <string name="nome_campo">name</string>
     <string name="proxima">proxima</string>
+    <string name="batalha">Batalha</string>
+    <string name="jogador">Ana Nascimento</string>
+    <string name="nivel">Nível 5</string>
+    <string name="continuar">Continuar</string>
 
 </resources>
 

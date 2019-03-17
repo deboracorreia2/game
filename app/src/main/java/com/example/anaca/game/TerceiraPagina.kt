@@ -13,7 +13,7 @@ class TerceiraPagina : AppCompatActivity() {
     }
     fun Click(view: View) {
 
-        var intent: Intent = Intent(this,QuartaPagina::class.java)
+        var intent: Intent = Intent(this,SegundaPagina::class.java)
         startActivity(intent)
     }
 }

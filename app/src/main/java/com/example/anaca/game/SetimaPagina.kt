@@ -13,7 +13,7 @@ class SetimaPagina : AppCompatActivity() {
     }
     fun Click(view: View) {
 
-        var intent: Intent = Intent(this,OitavaPagina::class.java)
+        var intent: Intent = Intent(this,MainActivity_game::class.java)
         startActivity(intent)
     }
 }

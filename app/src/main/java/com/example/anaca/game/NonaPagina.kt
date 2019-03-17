@@ -13,7 +13,7 @@ class NonaPagina : AppCompatActivity() {
     }
     fun Click(view: View) {
 
-        var intent: Intent = Intent(this,SegundaPagina::class.java)
+        var intent: Intent = Intent(this,DecimaPagina::class.java)
         startActivity(intent)
     }
 }
