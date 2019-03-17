@@ -19,9 +19,10 @@
         android:background="@drawable/layout_shadow_white"
         app:layout_constraintBottom_toTopOf="@+id/bluetooth_conectar"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="0.481"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView3">
+        app:layout_constraintTop_toBottomOf="@+id/imageView3"
+        app:layout_constraintVertical_bias="0.511">
 
         <ImageView
             android:id="@+id/imageView4"
@@ -29,8 +30,8 @@
             android:layout_height="53dp"
             android:layout_alignParentStart="true"
             android:layout_alignParentBottom="true"
-            android:layout_marginStart="111dp"
-            android:layout_marginBottom="32dp"
+            android:layout_marginStart="127dp"
+            android:layout_marginBottom="27dp"
             app:srcCompat="@drawable/estrela" />
 
         <TextView
@@ -39,8 +40,8 @@
             android:layout_height="wrap_content"
             android:layout_alignParentEnd="true"
             android:layout_alignParentBottom="true"
-            android:layout_marginEnd="159dp"
-            android:layout_marginBottom="43dp"
+            android:layout_marginEnd="145dp"
+            android:layout_marginBottom="36dp"
             android:text="@string/pontos"
             android:textSize="24sp" />
     </RelativeLayout>
@@ -80,10 +81,10 @@
         android:textSize="50dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.609"
+        app:layout_constraintHorizontal_bias="0.64"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView3"
-        app:layout_constraintVertical_bias="0.075" />
+        app:layout_constraintVertical_bias="0.0" />
 
 
     <TextView
@@ -112,11 +113,13 @@
         android:layout_marginBottom="8dp"
         android:background="@android:color/transparent"
         android:contentDescription="@string/conectar"
+        android:onClick="Click"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/rel_anything"
-        app:layout_constraintVertical_bias="0.964"
+        app:layout_constraintTop_toBottomOf="@+id/traje_um"
+        app:layout_constraintVertical_bias="0.885"
         app:srcCompat="@drawable/bot1" />
 
     <TextView
@@ -125,14 +128,14 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
         android:layout_marginEnd="8dp"
-        android:layout_marginBottom="8dp"
+        android:layout_marginBottom="16dp"
         android:fontFamily="@font/lalezar"
         android:text="@string/ok"
         android:textColor="#f1f1f1"
         android:textSize="30sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintHorizontal_bias="0.501"
         app:layout_constraintStart_toStartOf="parent" />
 
 

@@ -13,9 +13,14 @@
         android:layout_height="462dp"
         android:layout_alignParentStart="true"
         android:layout_alignParentLeft="true"
+        android:layout_marginStart="22dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="22dp"
         android:background="@drawable/layout_shadow_white"
-        tools:layout_editor_absoluteX="35dp"
-        tools:layout_editor_absoluteY="68dp">
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
 
     </RelativeLayout>
 
@@ -27,12 +32,9 @@
         android:layout_alignParentStart="true"
         android:layout_alignParentBottom="true"
         android:layout_marginStart="140dp"
-        android:layout_marginTop="8dp"
-        android:layout_marginBottom="8dp"
+        android:layout_marginBottom="56dp"
         app:layout_constraintBottom_toBottomOf="@+id/bluetooth_conectar2"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/traje_um2"
-        app:layout_constraintVertical_bias="0.0"
         app:srcCompat="@drawable/estrela" />
 
     <TextView
@@ -42,7 +44,6 @@
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
         android:layout_marginStart="8dp"
-        android:layout_marginTop="8dp"
         android:layout_marginEnd="8dp"
         android:layout_marginBottom="8dp"
         android:text="@string/pontos_dois"
@@ -50,25 +51,7 @@
         app:layout_constraintBottom_toTopOf="@+id/botao2"
         app:layout_constraintEnd_toEndOf="@+id/rel_anything"
         app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toEndOf="@+id/imageView7"
-        app:layout_constraintTop_toBottomOf="@+id/traje_um2" />
-
-    <TextView
-        android:id="@+id/traje_um2"
-        android:layout_width="150dp"
-        android:layout_height="43dp"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="8dp"
-        android:layout_marginEnd="8dp"
-        android:layout_marginBottom="60dp"
-        android:text="@string/personagem"
-        android:textSize="24sp"
-        app:layout_constraintBottom_toBottomOf="@+id/rel_anything"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.497"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView9"
-        app:layout_constraintVertical_bias="0.125" />
+        app:layout_constraintStart_toEndOf="@+id/imageView7" />
 
     <ImageButton
         android:id="@+id/botao2"
@@ -80,6 +63,7 @@
         android:layout_marginBottom="8dp"
         android:background="@android:color/transparent"
         android:contentDescription="@string/conectar"
+        android:onClick="Click"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -109,7 +93,7 @@
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
         android:layout_marginEnd="8dp"
-        android:layout_marginBottom="412dp"
+        android:layout_marginBottom="320dp"
         android:fontFamily="@font/roboto"
         android:shadowColor="#000000"
         android:shadowDx="5"
@@ -120,9 +104,10 @@
         android:textSize="36sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView3"
-        app:layout_constraintVertical_bias="0.075" />
+        app:layout_constraintTop_toTopOf="@+id/rel_anything"
+        app:layout_constraintVertical_bias="0.981" />
 
     <ImageView
         android:id="@+id/imageView5"
@@ -135,7 +120,6 @@
         android:contentDescription="@string/bluetooth"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.47"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.0"
@@ -144,14 +128,16 @@
     <ImageView
         android:id="@+id/imageView6"
         android:layout_width="118dp"
-        android:layout_height="225dp"
+        android:layout_height="178dp"
         android:layout_marginStart="8dp"
-        android:layout_marginTop="188dp"
+        android:layout_marginTop="208dp"
         android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
         android:contentDescription="@string/personagem"
+        app:layout_constraintBottom_toBottomOf="@+id/bluetooth_conectar2"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.073"
         app:srcCompat="@drawable/carinha" />
 </android.support.constraint.ConstraintLayout>

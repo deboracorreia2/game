@@ -74,6 +74,8 @@
         android:layout_marginTop="8dp"
         android:layout_marginBottom="8dp"
         android:background="@android:color/transparent"
+        android:contentDescription="@string/voltar"
+        android:onClick="Click1"
         android:scaleType="centerCrop"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/imageButton6"
@@ -81,8 +83,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView3"
         app:srcCompat="@drawable/bot1"
-        tools:srcCompat="@drawable/bot1"
-        android:contentDescription="@string/voltar" />
+        tools:srcCompat="@drawable/bot1" />
 
     <TextView
         android:id="@+id/textView4"
@@ -128,13 +129,14 @@
         android:layout_marginTop="8dp"
         android:layout_marginBottom="8dp"
         android:background="@android:color/transparent"
+        android:contentDescription="@string/pronto"
+        android:onClick="Click"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toEndOf="@+id/imageButton5"
         app:layout_constraintTop_toBottomOf="@+id/textView3"
-        app:srcCompat="@drawable/bot2"
-        android:contentDescription="@string/pronto"/>
+        app:srcCompat="@drawable/bot2" />
 
     <TextView
         android:id="@+id/textView5"

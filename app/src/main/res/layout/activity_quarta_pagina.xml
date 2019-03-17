@@ -32,6 +32,7 @@
         android:layout_marginBottom="84dp"
         android:background="@android:color/transparent"
         android:contentDescription="@string/conectar"
+        android:onClick="Click"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
