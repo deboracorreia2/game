@@ -21,4 +21,9 @@ class QuintaPagina : AppCompatActivity() {
         var intent: Intent = Intent(this,QuartaPagina::class.java)
         startActivity(intent)
     }
+    fun Click2(view: View) {
+
+        var intent: Intent = Intent(this,SetimaPagina::class.java)
+        startActivity(intent)
+    }
 }
